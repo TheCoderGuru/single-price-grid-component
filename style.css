@@ -4,14 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  user-select: none;
 }
 
 :root {
   --cyan: hsl(179, 62%, 43%);
   --light-cyan: hsl(180.5, 60%, 57%);
   --yellow: hsl(71, 73%, 54%);
-  --body-bg: #ddd;
   --light-blue: hsl(204, 43%, 93%);
   --gray-blue: hsl(218, 22%, 67%);
 }

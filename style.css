@@ -11,6 +11,7 @@
   --cyan: hsl(179, 62%, 43%);
   --light-cyan: hsl(180.5, 60%, 57%);
   --yellow: hsl(71, 73%, 54%);
+  --body-bg: #ddd;
   --light-blue: hsl(204, 43%, 93%);
   --gray-blue: hsl(218, 22%, 67%);
 }
@@ -32,14 +33,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
-  /* -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%); */
 }
 
 .container .card {
@@ -110,7 +103,7 @@ body {
 }
 
 .subscribe-container .price {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -140,4 +133,8 @@ body {
 .why-us-container__description {
   margin-bottom: 5px;
   color: var(--light-blue);
+}
+
+@media screen and ( min-width: 375px ){
+
 }

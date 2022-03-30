@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-:root {
+:root { 
   --cyan: hsl(179, 62%, 43%);
   --light-cyan: hsl(180.5, 60%, 57%);
   --yellow: hsl(71, 73%, 54%);
@@ -131,8 +131,4 @@ body {
 .why-us-container__description {
   margin-bottom: 5px;
   color: var(--light-blue);
-}
-
-@media screen and ( min-width: 375px ){
-
 }

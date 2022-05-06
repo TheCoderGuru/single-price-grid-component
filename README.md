@@ -52,12 +52,16 @@ Users should be able to:
 
 ### What I learned
 
-I learnt that in order to have content span only one column while using css grid, you use ```grid-column: span 1```.
+This challenge allowed me to have a greater exposure to css grid since I never used it at this point however after watching some youtube tutorials by Kevin Powell and reading articles on CSS Tricks which included "A Complete Guide to CSS Grid" my direction was established while attempting this challenge and I found it easier to achieve the desktop layout.
+
+The approach for coding the desktop version was to firstly establish how many columns were necessary in order to achieve the layout which resulted in a count of 2 columns. Secondly, in order to have the top-level container spanned across two columns, the css declaration ```grid-column: span 2``` would need to be specifically added on the respective class. The last step would be to have the bottom-level container divided into two equal sub-containers which meant that the containers would have to occupy the grid locations of ```1, 2``` and ```2, 2``` respectively.
+
+I found it difficult to understand how exactly I am changing the top-level container from the desktop version where it spanned two columns to the mobile version of occupying only one column. This was a frustrating process however it dawned upon me that maybe if ```grid-column: span 2``` would be used to span two columns then what would be the result of ```grid-column: span 1``` which did exactly as I wanted.
 
 
 ### Continued development
 
-I plan to try using css grid as much possible in order to become more comfortable with all of its various properties and its use cases.
+I plan to try using css grid as much possible in order to become more comfortable with all of its various properties and its use cases in addition to attempt more css grid challenges to level up the complexity.
 
 
 ### Useful resources
